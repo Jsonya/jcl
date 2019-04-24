@@ -1,0 +1,22 @@
+{
+  "name": "jsonya-cli",
+  "version": "1.0.0",
+  "description": "a simple cli",
+  "main": "bin/cli.js",
+  "bin": {
+    "jcl": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "jsonya",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "shelljs": "^0.8.3"
+  }
+}
