@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:pre": "LIST=`git diff-index --name-only HEAD | grep .js | grep -v json`; if [ \"$LIST\" ]; then node_modules/.bin/eslint $LIST; fi",
-    "lint": "node_modules/.bin/eslint . lib/ bin/"
+    "lint": "node_modules/.bin/eslint . lib/ bin/",
+    "v-up": "bash ./shell/version.sh"
   },
   "keywords": [
     "cli"
