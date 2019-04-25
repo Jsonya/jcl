@@ -1,4 +1,9 @@
 # jsonya-cli
+
+![npm](https://img.shields.io/npm/dt/jsonya-cli.svg)
+![npm](https://img.shields.io/npm/v/jsonya-cli.svg)
+![NPM](https://img.shields.io/npm/l/jsonya-cli.svg)
+
 > 命令行集合
 
 ## Install
