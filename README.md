@@ -3,6 +3,7 @@
 ![npm](https://img.shields.io/npm/dt/jsonya-cli.svg)
 ![npm](https://img.shields.io/npm/v/jsonya-cli.svg)
 ![NPM](https://img.shields.io/npm/l/jsonya-cli.svg)
+[![Build Status](https://travis-ci.org/Jsonya/jcl.svg?branch=master)](https://travis-ci.org/Jsonya/jcl)
 
 > 命令行集合
 

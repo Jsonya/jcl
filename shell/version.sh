@@ -2,8 +2,7 @@
 
 OPTION=$1
 VERSION="$(npm --no-git-tag-version version $OPTION)"
-npm run changelog
-git add ./package.json
+git add ./package.json ./package-lock.json
 git commit -m "release: $VERSION"
 git push origin master
 npm publish
