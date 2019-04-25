@@ -20,3 +20,5 @@ npm i jsonya-cli -g
 -b, --branch [mode]      推送分支
 ```
 
+### jcl gsm(生成git公钥)
+
