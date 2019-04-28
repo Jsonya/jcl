@@ -23,3 +23,5 @@ npm i jsonya-cli -g
 
 ### jcl gsm(生成git公钥)
 
+### jcl init(初始化项目)
+

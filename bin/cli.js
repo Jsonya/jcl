@@ -3,6 +3,7 @@ const commander = require('commander');
 const mypackage = require('../package.json');
 const hp = require('../lib/hexo-publish');
 const gitSSH = require('../lib/git-ssh');
+const initProject = require('../lib/init-project');
 
 // 解析版本
 commander
@@ -34,6 +35,13 @@ commander
   .description('git 多公钥管理')
   .action(() => {
     gitSSH();
+  });
+
+commander
+  .command('init')
+  .description('项目初始化')
+  .action(() => {
+    initProject();
   });
 
 
