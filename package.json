@@ -13,10 +13,17 @@
     "v-up": "bash ./shell/version.sh"
   },
   "keywords": [
-    "cli"
+    "cli",
+    "hexo",
+    "git ssh",
+    "project init"
   ],
   "author": "jsonya",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jsonya/jcl.git"
+  },
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.20.0",

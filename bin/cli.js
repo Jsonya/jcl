@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 const commander = require('commander');
 const mypackage = require('../package.json');
-const hp = require('../lib/hexo-publish');
-const gitSSH = require('../lib/git-ssh');
-const initProject = require('../lib/init-project');
+const hp = require('../lib/commander/hexo-publish');
+const gitSSH = require('../lib/commander/git-ssh');
+const initProject = require('../lib/commander/init-project');
 
 // 解析版本
 commander
@@ -44,6 +44,9 @@ commander
     initProject();
   });
 
+commander
+  .command('server')
+  .description('本地构建项目');
 
 // 解析命令
 commander.parse(process.argv);
